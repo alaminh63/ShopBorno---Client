@@ -16,6 +16,7 @@ const NavBar = () => {
       .then(() => {})
       .catch(() => {});
   };
+  
   const [toggle, setToggle] = useState();
   return (
     <div className="max-w-[1240px] mx-auto p-3">
