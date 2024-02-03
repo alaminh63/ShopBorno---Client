@@ -13,6 +13,8 @@ import MultipleCategories from "../Pages/ShopCategory/MultipleCategories";
 import GirlsCollection from "../Pages/ShopCategory/Fassion/GirlsCollection/GirlsCollection";
 import MenCollection from "../Pages/ShopCategory/Fassion/MenCollection/MenCollection";
 import KidsCollection from "../Pages/ShopCategory/Fassion/KidsCollection/KidsCollection";
+import Register from "../Pages/Register/Register";
+import Login from "../Pages/Login/Login";
 
 const Router = createBrowserRouter([
   {
@@ -70,6 +72,16 @@ const Router = createBrowserRouter([
       {
         path: "/kids",
         element: <KidsCollection />,
+      },
+
+      {
+        path: "/register",
+        element: <Register />,
+      },
+
+      {
+        path: "/login",
+        element: <Login />,
       },
     ],
   },
