@@ -8,10 +8,8 @@ import AllSoftware from "../Pages/ShopCategory/Software/AllSoftware";
 import AllFrozen from "../Pages/ShopCategory/Frozen/AllFrozen";
 import AllGrocery from "../Pages/ShopCategory/Grocery/AllGrocery";
 import AllPcBuilding from "../Pages/ShopCategory/PcBuilding/AllPcBuilding";
-import AllCategories from "../Pages/ShopCategory/AllCategories";
+
 import MultipleCategories from "../Pages/ShopCategory/MultipleCategories";
-
-
 
 const Router = createBrowserRouter([
   {
@@ -50,10 +48,7 @@ const Router = createBrowserRouter([
         path: "/allPcBuilding",
         element: <AllPcBuilding />,
       },
-      {
-        path: "/allCatergories",
-        element: <AllCategories />,
-      },
+
       {
         path: "/multipleCategories",
         element: <MultipleCategories />,
