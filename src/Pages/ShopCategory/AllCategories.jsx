@@ -8,7 +8,7 @@ import shop5 from "../../assets/Shop Category/shop5.png"
 import shop6 from "../../assets/Shop Category/shop6.jpg"
 import shop7 from "../../assets/Shop Category/shop7.jpg"
 
-const AllShop = () => {
+const AllCategories = () => {
     return (
         <div className="max-w-[1240px] mx-auto px-2 mb-16">
             <div className="flex justify-between items-center my-3">
@@ -72,4 +72,4 @@ const AllShop = () => {
     );
 };
 
-export default AllShop;
+export default AllCategories;

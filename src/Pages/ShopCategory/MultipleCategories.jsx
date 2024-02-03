@@ -7,7 +7,7 @@ import shop5 from "../../assets/Shop Category/shop5.png"
 import shop6 from "../../assets/Shop Category/shop6.jpg"
 import shop7 from "../../assets/Shop Category/shop7.jpg"
 
-const MultipleShop = () => {
+const MultipleCategories = () => {
     return (
         <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-20">
             <h1 className="my-3 text-sky-500">From all Shop.</h1>
@@ -52,4 +52,4 @@ const MultipleShop = () => {
     );
 };
 
-export default MultipleShop;
+export default MultipleCategories;

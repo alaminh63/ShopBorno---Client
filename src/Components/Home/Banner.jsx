@@ -17,37 +17,37 @@ const Banner = () => {
     <div className="flex justify-between flex-col md:flex-row mt-10 items-center gap-6 max-w-[1240px] mx-auto">
       {/* Side Nav menu  */}
       <div className="md:w-[200px] grid grid-cols-2 md:grid-cols-1 gap-3 md:gap-1">
-        <Link to="/fashion">
+        <Link to="/allfashions">
           <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">
             LIFE STYLE
           </p>
         </Link>
-        <Link to="/allPhone">
+        <Link to="/allPhones">
           <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">
             GADGHET & DEVICE
           </p>
         </Link>
-        <Link to="/electronics">
+        <Link to="/allElectronics">
           <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">
             ELECTRONICS
           </p>
         </Link>
-        <Link to="/software">
+        <Link to="/allSoftware">
           <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">
             TECK & SOFTWARE
           </p>
         </Link>
-        <Link to="/pcBuilding">
+        <Link to="/allPcBuilding">
           <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">
             PC BUILDING
           </p>
         </Link>
-        <Link to="/frozen">
+        <Link to="/allFrozen">
           <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">
             FROZEN FOODS
           </p>
         </Link>
-        <Link to="/grocery">
+        <Link to="/allGrocery">
           <p className="w-full text-center border p-2 rounded-md hover:shadow-md hover:bg-sky-400 hover:text-white cursor-pointer scale-90 hover:scale-100 duration-300">
             GROCERY ITEMS
           </p>

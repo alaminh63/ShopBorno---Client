@@ -1,6 +1,17 @@
 import { createBrowserRouter } from "react-router-dom";
 import Root from "../layouts/Root";
 import Home from "../Pages/Home/Home";
+import AllElectronics from "../Pages/ShopCategory/Electronics/AllElectronics";
+import AllFashion from "../Pages/ShopCategory/Fassion/AllFashion";
+import AllPhone from "../Pages/ShopCategory/Phones/AllPhone";
+import AllSoftware from "../Pages/ShopCategory/Software/AllSoftware";
+import AllFrozen from "../Pages/ShopCategory/Frozen/AllFrozen";
+import AllGrocery from "../Pages/ShopCategory/Grocery/AllGrocery";
+import AllPcBuilding from "../Pages/ShopCategory/PcBuilding/AllPcBuilding";
+import AllCategories from "../Pages/ShopCategory/AllCategories";
+import MultipleCategories from "../Pages/ShopCategory/MultipleCategories";
+
+
 
 const Router = createBrowserRouter([
   {
@@ -12,36 +23,40 @@ const Router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/allPhone",
-        element: <AllPhone />,
-      },
-      {
-        path: "/multiple-shop",
-        element: <MultipleShop />,
-      },
-      {
-        path: "/fashion",
-        element: <AllFashion />,
-      },
-      {
-        path: "/electronics",
+        path: "/allElectronics",
         element: <AllElectronics />,
       },
       {
-        path: "/software",
+        path: "/allFashions",
+        element: <AllFashion />,
+      },
+      {
+        path: "/allPhones",
+        element: <AllPhone />,
+      },
+      {
+        path: "/allSoftware",
         element: <AllSoftware />,
       },
       {
-        path: "/pcBuilding",
-        element: <AllPc />,
-      },
-      {
-        path: "/frozen",
+        path: "/allFrozen",
         element: <AllFrozen />,
       },
       {
-        path: "/grocery",
+        path: "/allGrocery",
         element: <AllGrocery />,
+      },
+      {
+        path: "/allPcBuilding",
+        element: <AllPcBuilding />,
+      },
+      {
+        path: "/allCatergories",
+        element: <AllCategories />,
+      },
+      {
+        path: "/multipleCategories",
+        element: <MultipleCategories />,
       },
     ],
   },

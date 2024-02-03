@@ -1,6 +1,6 @@
 
 
-const AllPc = () => {
+const AllPcBuilding = () => {
     return (
         <div className="max-w-[1240px] mx-auto mt-10 px-2">
 
@@ -13,4 +13,4 @@ const AllPc = () => {
     );
 };
 
-export default AllPc;
+export default AllPcBuilding;
