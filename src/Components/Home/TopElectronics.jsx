@@ -10,7 +10,7 @@ const TopElectronics = () => {
       <div className="flex justify-between items-center my-3">
         <h1>
           Top{" "}
-          <span className="text-[#008ECC] font-bold">Electronics Brand</span>
+          <span className="text-[#008ECC] font-bold">Running Offer Phone</span>
         </h1>
         <Link to="/AllElectronics">
           <div className="flex gap-2 items-center cursor-pointer hover:bg-[#008ECC] duration-300 hover:text-white px-3 rounded">
@@ -25,7 +25,7 @@ const TopElectronics = () => {
 
       <div className="grid md:grid-cols-3 gap-4 items-center mt-10">
         <div className="rounded-xl">
-          <Link to="allPhone">
+          <Link to="allPhones">
             <img
               className="scale-100 hover:scale-95 duration-300"
               src={brand1}
@@ -34,7 +34,7 @@ const TopElectronics = () => {
           </Link>
         </div>
         <div className="rounded-xl">
-          <Link to="/allPhone">
+          <Link to="/allPhones">
             <img
               className="scale-100 hover:scale-95 duration-300"
               src={brand2}
@@ -43,7 +43,7 @@ const TopElectronics = () => {
           </Link>
         </div>
         <div className="rounded-xl">
-          <Link to="/allPhone">
+          <Link to="/allPhones">
             <img
               className="scale-100 hover:scale-95 duration-300"
               src={brand3}

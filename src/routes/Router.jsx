@@ -10,6 +10,9 @@ import AllGrocery from "../Pages/ShopCategory/Grocery/AllGrocery";
 import AllPcBuilding from "../Pages/ShopCategory/PcBuilding/AllPcBuilding";
 
 import MultipleCategories from "../Pages/ShopCategory/MultipleCategories";
+import GirlsCollection from "../Pages/ShopCategory/Fassion/GirlsCollection/GirlsCollection";
+import MenCollection from "../Pages/ShopCategory/Fassion/MenCollection/MenCollection";
+import KidsCollection from "../Pages/ShopCategory/Fassion/KidsCollection/KidsCollection";
 
 const Router = createBrowserRouter([
   {
@@ -52,6 +55,21 @@ const Router = createBrowserRouter([
       {
         path: "/multipleCategories",
         element: <MultipleCategories />,
+      },
+
+      {
+        path: "/girls",
+        element: <GirlsCollection />,
+      },
+
+      {
+        path: "/mens",
+        element: <MenCollection />,
+      },
+
+      {
+        path: "/kids",
+        element: <KidsCollection />,
       },
     ],
   },

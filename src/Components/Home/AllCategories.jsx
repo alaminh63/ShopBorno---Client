@@ -35,7 +35,7 @@ const AllCategories = () => {
               alt=""
             />
           </div>
-          <Link to="/fashion">
+          <Link to="/allFashions">
             <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
               Life Syle & Fashion
             </h1>
@@ -49,7 +49,7 @@ const AllCategories = () => {
               alt=""
             />
           </div>
-          <Link to="/allPhone">
+          <Link to="/allPhones">
             <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
               Gadghet & Device
             </h1>
@@ -63,7 +63,7 @@ const AllCategories = () => {
               alt=""
             />
           </div>
-          <Link to="/electronics">
+          <Link to="/allElectronics">
             <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
               Electronics
             </h1>
@@ -77,7 +77,7 @@ const AllCategories = () => {
               alt=""
             />
           </div>
-          <Link to="/software">
+          <Link to="/allSoftware">
             <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
               Teck & Software
             </h1>
@@ -91,7 +91,7 @@ const AllCategories = () => {
               alt=""
             />
           </div>
-          <Link to="/pcBuilding">
+          <Link to="/allPcBuilding">
             <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
               PC Building
             </h1>
@@ -105,7 +105,7 @@ const AllCategories = () => {
               alt=""
             />
           </div>
-          <Link to="/frozen">
+          <Link to="/allFrozen">
             <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
               Frozen Food
             </h1>
@@ -119,7 +119,7 @@ const AllCategories = () => {
               alt=""
             />
           </div>
-          <Link to="/grocery">
+          <Link to="/allGrocery">
             <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
               Grocery Items
             </h1>

@@ -15,7 +15,7 @@ const DailyNeeds = () => {
         <h1>
           Dailly <span className="text-[#008ECC] font-bold">Needs</span>
         </h1>
-        <Link to="/grocery">
+        <Link to="/allGrocery">
           <div className="flex gap-2 items-center cursor-pointer hover:bg-[#008ECC] duration-300 hover:text-white px-3 rounded">
             <h1>View All</h1>
             <IoIosArrowForward />
