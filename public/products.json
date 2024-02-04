@@ -7,7 +7,7 @@
     "color": "Black",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "44,999"
+    "price": 44999
   },
   {
     "title": "BlackBerry DTL",
@@ -17,7 +17,7 @@
     "color": "Black",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "34,999"
+    "price": 34999
   },
   {
     "title": "BlackBerry Key",
@@ -27,7 +27,7 @@
     "color": "Black",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "54,999"
+    "price": 54999
   },
   {
     "title": "BlackBerry Key-2",
@@ -37,7 +37,7 @@
     "color": "Black",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "64,999"
+    "price": 64999
   },
   {
     "title": "BlackBerry Motion",
@@ -47,7 +47,7 @@
     "color": "Black",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "44,999"
+    "price": 44999
   },
   {
     "title": "Samsung Z Fold",
@@ -57,7 +57,7 @@
     "color": "Light Purple",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,45,999"
+    "price": 15999
   },
   {
     "title": "Samsung S23 Ultra",
@@ -67,7 +67,7 @@
     "color": "Light Purple",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,40,999"
+    "price": 140999
   },
   {
     "title": "Samsung S21 Ultra",
@@ -77,7 +77,7 @@
     "color": "Light Purple",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "69,999"
+    "price": 69999
   },
   {
     "title": "Samsung S22 Plus",
@@ -87,7 +87,7 @@
     "color": "Light Purple",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,00,999"
+    "price": 100999
   },
   {
     "title": "Samsung S21 FE",
@@ -97,7 +97,7 @@
     "color": "Light Purple",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "45,999"
+    "price": 45999
   },
   {
     "title": "Samsung S22 Ultra",
@@ -107,7 +107,7 @@
     "color": "Space Gray",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,00,999"
+    "price": 10999
   },
   {
     "title": "Samsung Z Flip",
@@ -117,7 +117,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,40,999"
+    "price": 140999
   },
   {
     "title": "Samsung Tab S6",
@@ -127,7 +127,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "40,999"
+    "price": 40999
   },
   {
     "title": "Samsung Note 10 Plus",
@@ -137,7 +137,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "40,999"
+    "price": 40999
   },
   {
     "title": "Samsung Note 20 Plus",
@@ -147,7 +147,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "60,999"
+    "price": 60999
   },
   {
     "title": "Samsung A54",
@@ -157,7 +157,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "39,999"
+    "price": 39999
   },
   {
     "title": "Samsung A34",
@@ -167,7 +167,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "29,999"
+    "price": 29999
   },
   {
     "title": "Samsung A24",
@@ -177,7 +177,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "24,999"
+    "price": 24999
   },
   {
     "title": "Samsung Note 10 Lite",
@@ -187,7 +187,7 @@
     "color": "Space Silver",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "28,999"
+    "price": 28999
   },
   {
     "title": "Iphone 14 Pro Max",
@@ -197,7 +197,7 @@
     "color": "Deep Pueple",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,18,000"
+    "price": 190900
   },
   {
     "title": "Iphone 14 Pro",
@@ -207,7 +207,7 @@
     "color": "Deep Pueple",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,02,000"
+    "price": 102000
   },
   {
     "title": "Iphone 11 Pro Max",
@@ -217,7 +217,7 @@
     "color": "All Color Available",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "78,000"
+    "price": 78000
   },
   {
     "title": "Iphone 15 Pro Max",
@@ -227,7 +227,7 @@
     "color": "Space Grey",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,56,999"
+    "price": 156999
   },
   {
     "title": "Iphone 15 Pro",
@@ -237,7 +237,7 @@
     "color": "Titanium",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "1,28,000"
+    "price": 128000
   },
   {
     "title": "Iphone 13 Pro Max",
@@ -247,7 +247,7 @@
     "color": "Space Grey",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "88,000"
+    "price": 88000
   },
   {
     "title": "Iphone 13 Plus",
@@ -257,7 +257,7 @@
     "color": "All Color Available",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "68,999"
+    "price": 68999
   },
   {
     "title": "Iphone 14 Plus",
@@ -267,7 +267,7 @@
     "color": "Light Pink",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "78,000"
+    "price": 78000
   },
   {
     "title": "Iphone XS",
@@ -277,7 +277,7 @@
     "color": "Gold",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "50,000"
+    "price": 50000
   },
   {
     "title": "Iphone 13",
@@ -287,7 +287,7 @@
     "color": "Light Sky",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "68,999"
+    "price": 68999
   },
   {
     "title": "Iphone Xs Max",
@@ -297,7 +297,7 @@
     "color": "Gold",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "58,999"
+    "price": 58999
   },
   {
     "title": "Iphone 6 Plus",
@@ -307,7 +307,7 @@
     "color": "Light Pink",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "26,999"
+    "price": 26999
   },
   {
     "title": "Iphone SE",
@@ -317,7 +317,7 @@
     "color": "Rose Gold",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "30,000"
+    "price": 30000
   },
   {
     "title": "Iphone 6S",
@@ -327,7 +327,7 @@
     "color": "Rose Gold",
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
-    "price": "28,999"
+    "price": 28999
   },
   {
     "title": "Formal Shot",

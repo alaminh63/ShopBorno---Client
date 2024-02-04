@@ -33,6 +33,7 @@ const SingleProduct = () => {
   // making cart data to send to server
   const cartProduct = {
     productId: _id,
+    price: price,
     email: user?.email,
   };
 
@@ -44,7 +45,7 @@ const SingleProduct = () => {
           toast: true,
           position: "top-end",
           showConfirmButton: false,
-          timer: 3000,
+          timer: 1000,
           timerProgressBar: true,
           didOpen: (toast) => {
             toast.onmouseenter = Swal.stopTimer;
@@ -60,7 +61,7 @@ const SingleProduct = () => {
           toast: true,
           position: "top-end",
           showConfirmButton: false,
-          timer: 3000,
+          timer: 1000,
           timerProgressBar: true,
           didOpen: (toast) => {
             toast.onmouseenter = Swal.stopTimer;
@@ -78,9 +79,9 @@ const SingleProduct = () => {
   return (
     <div className="max-w-[1240px] mx-auto mt-16 mb-16 px-2">
       <div className="flex justify-center flex-col md:flex-row gap-4 items-center">
-        <img className=" mb-6" src={image} alt="" />
+        <img className="w-[400px] h-[500px] mb-6" src={image} alt="" />
         <div>
-          <h1 className="text-4xl font-bold mb-8 px-5">{title}</h1>
+          <h1 className="text-4xl font-bold mb-4 px-5">{title}</h1>
           <div>
             <div className="flex gap-5 items-center text-sm">
               <div className="flex gap-2 items-center border-r-2 px-5">
@@ -96,17 +97,23 @@ const SingleProduct = () => {
               <p className="text-sky-500">124 Answered Questions</p>
             </div>
             <div className="flex items-center gap-3 px-5 mt-2">
-              <h1>
-                Brand: <span className="text-sky-500">{subCategory}</span>
-                Category: <span className="text-sky-500">{category}</span>
-              </h1>
+              <div className="flex gap-3">
+                <h2>
+                  Brand:
+                  <span className="text-sky-500 uppercase">{subCategory}</span>
+                </h2>
+                <h2>
+                  Category:
+                  <span className="text-sky-500 uppercase">{category}</span>
+                </h2>
+              </div>
               <div className="flex gap-3 items-center">
                 <IoMdShare className="cursor-pointer hover:text-sky-500 duration-300" />
                 <IoBookmarkOutline className="cursor-pointer hover:text-sky-500 duration-300" />
               </div>
             </div>
           </div>
-          <hr className="my-6 w-[390px] ml-5" />
+          <hr className="my-2 w-[390px] ml-5" />
 
           <div className="px-5">
             <h1 className="text-4xl mb-2">
@@ -114,7 +121,7 @@ const SingleProduct = () => {
             </h1>
           </div>
 
-          <hr className="my-6 w-[390px] ml-5" />
+          <hr className="my-2 w-[390px] ml-5" />
 
           <h1 className="px-5 mb-2">
             Color: <span className="font-bold">{color}</span>
@@ -123,7 +130,7 @@ const SingleProduct = () => {
             Storage: <span className="">{description}</span>
           </h1>
 
-          <hr className="my-6 w-[390px] ml-5" />
+          <hr className="my-2 w-[390px] ml-5" />
 
           <div className="flex gap-6 items-center px-5">
             <p>Quantity:</p>
@@ -135,11 +142,6 @@ const SingleProduct = () => {
           </div>
 
           <div className="flex items-center gap-8 justify-between px-5 mt-8">
-            <input
-              className="block mx-auto w-full cursor-pointer p-3 rounded-md text-white bg-sky-500"
-              type="button"
-              value="Buy Now"
-            />
             <input
               className="block mx-auto w-full cursor-pointer p-3 rounded-md bg-orange-500 text-white"
               type="button"

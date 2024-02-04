@@ -16,6 +16,7 @@ import Register from "../Pages/Register/Register";
 import Login from "../Pages/Login/Login";
 import SingleProduct from "../Pages/SingleProduct/SingleProduct";
 import Cart from "../Pages/Cart/Cart";
+import PrivateRouter from "../Private/PrivateRoute";
 
 const Router = createBrowserRouter([
   {
@@ -86,10 +87,15 @@ const Router = createBrowserRouter([
       },
       {
         path: "/singleProduct/:id",
-        element: <SingleProduct />,
+        element: (
+          <PrivateRouter>
+            <SingleProduct />
+          </PrivateRouter>
+        ),
       },
       {
         path: "/cart",
+
         element: <Cart />,
       },
     ],
