@@ -36,7 +36,7 @@ const DailyNeeds = () => {
             />
           </div>
           <div className="text-center cursor-pointer">
-            <Link to="/grocery">
+            <Link to="/allGrocery">
               <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
                 Grocery Needs
               </h1>
@@ -52,7 +52,7 @@ const DailyNeeds = () => {
             />
           </div>
           <div className="text-center cursor-pointer">
-            <Link to="/grocery">
+            <Link to="/allGrocery">
               <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
                 Vagetable
               </h1>
@@ -68,7 +68,7 @@ const DailyNeeds = () => {
             />
           </div>
           <div className="text-center cursor-pointer">
-            <Link to="/grocery">
+            <Link to="/allGrocery">
               <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
                 Fruits
               </h1>
@@ -84,7 +84,7 @@ const DailyNeeds = () => {
             />
           </div>
           <div className="text-center cursor-pointer">
-            <Link to="/grocery">
+            <Link to="/allGrocery">
               <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
                 Fish
               </h1>
@@ -100,7 +100,7 @@ const DailyNeeds = () => {
             />
           </div>
           <div className="text-center cursor-pointer">
-            <Link to="/grocery">
+            <Link to="/allGrocery">
               <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
                 Broilar Chicken
               </h1>
@@ -116,7 +116,7 @@ const DailyNeeds = () => {
             />
           </div>
           <div className="text-center cursor-pointer">
-            <Link to="/grocery">
+            <Link to="/allGrocery">
               <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
                 Beaf Meat
               </h1>
@@ -132,7 +132,7 @@ const DailyNeeds = () => {
             />
           </div>
           <div className="text-center cursor-pointer">
-            <Link to="/grocery">
+            <Link to="/allGrocery">
               <h1 className="text-center  hover:bg-[#008ECC] hover:text-white duration-300 rounded-b-md p-2">
                 Deserts
               </h1>

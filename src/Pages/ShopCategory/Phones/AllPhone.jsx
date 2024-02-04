@@ -86,7 +86,7 @@ const AllPhone = () => {
           />
         </Link>
       </div> */}
-      <div className="grid md:grid-cols-5 items-center">
+      <div className="grid md:grid-cols-5 grid-cols-2 items-center">
         {allPhones.map((phones, index) => (
           <div key={index}>
             <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-14">
@@ -98,7 +98,7 @@ const AllPhone = () => {
                   <p>Storage: {phones.storage}</p>
                   <p className="font-bold">Price: BDT {phones.price}</p>
                 </div>
-                <Link to="/viewproduct">
+                <Link to={`/singleProduct/${phones._id}`}>
                   <div className="cursor-pointer mt-3 hover:bg-[#c0e7f8] bg-[#008ECC] hover:text-[#008ECC] text-white hover:bg-transparent rounded-b-md duration-300 p-3">
                     <button className="block w-full mx-auto">Buy Now</button>
                   </div>

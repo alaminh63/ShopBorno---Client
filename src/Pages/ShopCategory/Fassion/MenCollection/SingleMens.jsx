@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+
 const SingleMens = ({ singleMens }) => {
-  const { title, image, price, rating, color } = singleMens;
+  const { _id, title, image, price, rating, color } = singleMens;
   return (
     <div>
       <div className="rounded-md shadow-black/10 shadow">
@@ -11,7 +13,9 @@ const SingleMens = ({ singleMens }) => {
           <p>Color: {color}</p>
         </div>
         <div className="cursor-pointer mt-3 hover:bg-[#c0e7f8] bg-[#008ECC] hover:text-[#008ECC] text-white hover:bg-transparent rounded-b-md duration-300 p-3">
-          <button className="block w-full mx-auto">Buy Now</button>
+          <Link to={`/singleProduct/${_id}`}>
+            <button className="block w-full mx-auto">Buy Now</button>
+          </Link>
         </div>
       </div>
     </div>

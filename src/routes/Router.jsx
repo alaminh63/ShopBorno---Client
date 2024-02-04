@@ -15,6 +15,8 @@ import MenCollection from "../Pages/ShopCategory/Fassion/MenCollection/MenCollec
 import KidsCollection from "../Pages/ShopCategory/Fassion/KidsCollection/KidsCollection";
 import Register from "../Pages/Register/Register";
 import Login from "../Pages/Login/Login";
+import BuyProducts from "../Pages/SingleProduct/SingleProduct";
+import SingleProduct from "../Pages/SingleProduct/SingleProduct";
 
 const Router = createBrowserRouter([
   {
@@ -82,6 +84,10 @@ const Router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
+      },
+      {
+        path: "/singleProduct/:id",
+        element: <SingleProduct />,
       },
     ],
   },

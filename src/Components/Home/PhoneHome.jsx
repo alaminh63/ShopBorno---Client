@@ -24,7 +24,7 @@ const PhoneHome = () => {
       </div>
       <hr className="border-[#008ECC]" />
 
-      <div className="grid md:grid-cols-5 gap-4 items-center my-10">
+      <div className="grid md:grid-cols-5 grid-cols-2 gap-4 items-center my-10">
         <Link to="/allPhones">
           <div className="shadow-md bg-slate-100 relative rounded-md scale-100 hover:scale-95 duration-300">
             <img className="block mx-auto h-[160px]" src={image1} alt="" />
