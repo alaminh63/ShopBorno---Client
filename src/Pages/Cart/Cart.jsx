@@ -1,7 +1,7 @@
 import { MdDelete } from "react-icons/md";
 import product from "../../assets/fashion/men.jpg"
 
-const AddToCart = () => {
+const Cart = () => {
     return (
         <div className="max-w-[1240px] mx-auto mt-10 px-2">
             <h1 className="text-center font-bold text-2xl my-6">Add To cart</h1>
@@ -61,4 +61,4 @@ const AddToCart = () => {
     );
 };
 
-export default AddToCart;
+export default Cart;
