@@ -1,6 +1,7 @@
 import { MdDelete } from "react-icons/md";
 import product from "../../assets/fashion/men.jpg"
 
+
 const Cart = () => {
     return (
         <div className="max-w-[1240px] mx-auto mt-10 px-2">
