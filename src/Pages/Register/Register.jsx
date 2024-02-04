@@ -244,9 +244,12 @@ const Register = () => {
               </button>
             </div>
           </div>
-          <p className="mt-12 text-xs text-center font-light text-gray-400">
+          <p className="mt-12   text-center">
             Already have an account?
-            <Link to="/login" className="text-black font-medium">
+            <Link
+              to="/login"
+              className="bg-sky-500 text-white text-sm mx-2 font-medium p-4 rounded-md"
+            >
               Login Here
             </Link>
           </p>
