@@ -75,7 +75,7 @@ const NavBar = () => {
             <FiSearch className=" cursor-pointer absolute md:left-[1068px] text-white md:text-black md:top-16 left-[350px] top-9" />
           </div>
           <div className="flex items-center justify-center">
-            <Link to="/addtocart">
+            <Link to="/cart">
               <div className="flex gap-2 cursor-pointer items-center">
                 <FiShoppingCart className="md:text-2xl text-[#008ECC] cursor-pointer" />
                 <h1 className="hover:text-white duration-300 rounded hover:bg-[#008ECC] p-2">

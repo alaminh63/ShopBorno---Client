@@ -1,17 +1,20 @@
-import Image from "../../assets/Phone Brand/14-pro-max.webp";
-
 import { FaStar } from "react-icons/fa6";
 import { IoMdShare } from "react-icons/io";
 import { IoBookmarkOutline } from "react-icons/io5";
-
 import { FaPlus, FaMinus } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import useAuth from "../../Hooks/useAuth";
+import useApi from "../../Hooks/useApi";
+import Swal from "sweetalert2";
 
 const SingleProduct = () => {
   const [product, setProduct] = useState({});
+  const { user } = useAuth();
   const { id } = useParams();
+  const API = useApi();
   const {
+    _id,
     title,
     image,
     description,
@@ -26,6 +29,51 @@ const SingleProduct = () => {
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, []);
+
+  // making cart data to send to server
+  const cartProduct = {
+    productId: _id,
+    email: user?.email,
+  };
+
+  // product adding to cart
+  const handleAddToCart = () => {
+    API.post("/cartProducts", cartProduct).then((res) => {
+      if (res?.data?.insertedId) {
+        const Toast = Swal.mixin({
+          toast: true,
+          position: "top-end",
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+          didOpen: (toast) => {
+            toast.onmouseenter = Swal.stopTimer;
+            toast.onmouseleave = Swal.resumeTimer;
+          },
+        });
+        Toast.fire({
+          icon: "success",
+          title: "Signed in successfully",
+        });
+      } else if (res?.data?.message) {
+        const Toast = Swal.mixin({
+          toast: true,
+          position: "top-end",
+          showConfirmButton: false,
+          timer: 3000,
+          timerProgressBar: true,
+          didOpen: (toast) => {
+            toast.onmouseenter = Swal.stopTimer;
+            toast.onmouseleave = Swal.resumeTimer;
+          },
+        });
+        Toast.fire({
+          icon: "error",
+          title: "Already Added In Cart",
+        });
+      }
+    });
+  };
 
   return (
     <div className="max-w-[1240px] mx-auto mt-16 mb-16 px-2">
@@ -95,6 +143,7 @@ const SingleProduct = () => {
             <input
               className="block mx-auto w-full cursor-pointer p-3 rounded-md bg-orange-500 text-white"
               type="button"
+              onClick={handleAddToCart}
               value="Add to Cart"
             />
           </div>
