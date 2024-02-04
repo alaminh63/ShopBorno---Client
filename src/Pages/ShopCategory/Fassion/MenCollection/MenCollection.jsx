@@ -6,10 +6,15 @@ const MenCollection = () => {
     const [mens, setMens] = useState([])
 
         useEffect(() =>{
-            fetch("https://fakestoreapi.com/products")
+            fetch("http://localhost:3000/subProducts/mens")
             .then(res => res.json())
             .then(data => setMens(data))
         }, [])
+        // useEffect(() =>{
+        //     fetch("https://fakestoreapi.com/products")
+        //     .then(res => res.json())
+        //     .then(data => setMens(data))
+        // }, [])
 
     return (
         <div className="max-w-[1240px] mx-auto mt-10 mb-20 px-2">

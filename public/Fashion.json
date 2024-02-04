@@ -328,5 +328,115 @@
     "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
     "rating": "4.4",
     "price": "28,999"
+  },
+  {
+    "title": "Formal Shot",
+    "category": "fashions",
+    "subCategory": "mens",
+    "image": "https://i.ibb.co/XCjwGvg/depositphotos-506486940-stock-photo-mannequin-male-clothes-boutique-closeup.webp",
+    "color": "Dark Brown",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 245454
+  },
+  {
+    "title": "Tangile Saree",
+    "category": "fashions",
+    "subCategory": "girls",
+    "image": "https://i.ibb.co/sH34fvX/saree.webp",
+    "color": "Black",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 245000
+  },
+  {
+    "title": "Tangile Saree",
+    "category": "fashions",
+    "subCategory": "girls",
+    "image": "https://i.ibb.co/sH34fvX/saree.webp",
+    "color": "Black",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 245000
+  },
+  {
+    "title": "Tangile Saree",
+    "category": "fashions",
+    "subCategory": "girls",
+    "image": "https://i.ibb.co/sH34fvX/saree.webp",
+    "color": "Black",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 24500
+  },
+  {
+    "title": "Tangile Saree",
+    "category": "fashions",
+    "subCategory": "girls",
+    "image": "https://i.ibb.co/sH34fvX/saree.webp",
+    "color": "Black",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 2645
+  },
+  {
+    "title": "Tangile Saree",
+    "category": "fashions",
+    "subCategory": "girls",
+    "image": "https://i.ibb.co/sH34fvX/saree.webp",
+    "color": "Black",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 245000
+  },
+  {
+    "title": "Tiny Dress",
+    "category": "fashions",
+    "subCategory": "kids",
+    "image": "https://i.ibb.co/YQpBz0v/kid3.jpg",
+    "color": "Multiple",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 145000
+  },
+  {
+    "title": "Tiny Dress",
+    "category": "fashions",
+    "subCategory": "kids",
+    "image": "https://i.ibb.co/YQpBz0v/kid3.jpg",
+    "color": "Multiple",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 14500
+  },
+  {
+    "title": "Tiny Dress",
+    "category": "fashions",
+    "subCategory": "kids",
+    "image": "https://i.ibb.co/YQpBz0v/kid3.jpg",
+    "color": "Multiple",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 145000
+  },
+  {
+    "title": "Tiny Dress",
+    "category": "fashions",
+    "subCategory": "kids",
+    "image": "https://i.ibb.co/YQpBz0v/kid3.jpg",
+    "color": "Multiple",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 10040
+  },
+  {
+    "title": "Tiny Dress",
+    "category": "fashions",
+    "subCategory": "kids",
+    "image": "https://i.ibb.co/YQpBz0v/kid3.jpg",
+    "color": "Multiple",
+    "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam aliquid assumenda temporibus corporis ut ipsa cupiditate, iste laudantium! Quia repudiandae dignissimos nostrum hic, ipsa possimus ullam ratione unde itaque sequi ipsum nihil deleniti laborum, praesentium perspiciatis ab deserunt repellendus quo dicta qui, fugit est non? Officiis ea soluta reiciendis tempore!",
+    "rating": "4.7",
+    "price": 1000
   }
 ]

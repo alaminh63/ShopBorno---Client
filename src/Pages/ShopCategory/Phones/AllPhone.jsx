@@ -14,7 +14,7 @@ import { useEffect, useState } from "react";
 const AllPhone = () => {
   const [allPhones, setAllPhones] = useState([]);
   useEffect(() => {
-    fetch(`http://localhost:3000/phones`)
+    fetch(`http://localhost:3000/products/phones`)
       .then((res) => res.json())
       .then((data) => setAllPhones(data));
   }, []);

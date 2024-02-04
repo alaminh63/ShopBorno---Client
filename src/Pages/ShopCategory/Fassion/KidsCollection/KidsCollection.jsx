@@ -6,7 +6,7 @@ const KidsCollection = () => {
     const [kids, setKids] = useState([])
 
     useEffect(() =>{
-        fetch("/kids.json")
+        fetch("http://localhost:3000/subProducts/kids")
         .then(res => res.json())
         .then(data => setKids(data))
     },[])
