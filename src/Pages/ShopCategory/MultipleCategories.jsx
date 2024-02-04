@@ -12,37 +12,37 @@ const MultipleCategories = () => {
         <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-20">
             <h1 className="my-3 text-sky-500">From all Shop.</h1>
             <div className="grid md:grid-cols-3 gap-6 items-center">
-                <Link to="/fashion">
+                <Link to="/allFashions">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
                         <img className="block mx-auto w-[350px] h-[300px]" src={shop1} alt="" />
                     </div>
                 </Link>
-                <Link to="/software">
+                <Link to="/allSoftware">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
                         <img className="block mx-auto w-[350px] h-[300px]" src={shop2} alt="" />
                     </div>
                 </Link>
-                <Link to="/pcBuilding">
+                <Link to="/AllPcBuilding">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
                         <img className="block mx-auto w-[350px] h-[300px]" src={shop3} alt="" />
                     </div>
                 </Link>
-                <Link to="/frozen">
+                <Link to="/allFrozen">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
                         <img className="block mx-auto w-[350px] h-[300px]" src={shop4} alt="" />
                     </div>
                 </Link>
-                <Link to="/grocery">
+                <Link to="/allGrocery">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
                         <img className="block mx-auto w-[350px] h-[300px]" src={shop5} alt="" />
                     </div>
                 </Link>
-                <Link to="/allPhone">
+                <Link to="/allPhones">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
                         <img className="block mx-auto w-[350px] h-[300px]" src={shop6} alt="" />
                     </div>
                 </Link>
-                <Link to="/electronics">
+                <Link to="/allElectronics">
                     <div className="border hover:shadow-md duration-300 scale-100 hover:scale-95 rounded-md">
                         <img className="block mx-auto w-[350px] h-[300px]" src={shop7} alt="" />
                     </div>
