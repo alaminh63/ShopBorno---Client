@@ -17,6 +17,11 @@ import Login from "../Pages/Login/Login";
 import SingleProduct from "../Pages/SingleProduct/SingleProduct";
 import Cart from "../Pages/Cart/Cart";
 import PrivateRouter from "../Private/PrivateRoute";
+import Dashboard from "../layouts/Dashboard";
+import UserManagement from "../Dashboard/Admin/UserManagement";
+import ProductManagement from "../Dashboard/Admin/ProductManagement";
+import OrderedItems from "../Dashboard/Admin/OrderedItems";
+import AddNewProduct from "../Dashboard/Admin/AddNewProduct";
 
 const Router = createBrowserRouter([
   {
@@ -95,8 +100,33 @@ const Router = createBrowserRouter([
       },
       {
         path: "/cart",
-
         element: <Cart />,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    element: (
+      <PrivateRouter>
+        <Dashboard />
+      </PrivateRouter>
+    ),
+    children: [
+      {
+        path: "/dashboard/userManagement",
+        element: <UserManagement />,
+      },
+      {
+        path: "/dashboard/productManagement",
+        element: <ProductManagement />,
+      },
+      {
+        path: "/dashboard/orderItems",
+        element: <OrderedItems />,
+      },
+      {
+        path: "/dashboard/addNewProduct",
+        element: <AddNewProduct />,
       },
     ],
   },

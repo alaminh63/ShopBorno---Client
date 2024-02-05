@@ -55,9 +55,7 @@ const Cart = () => {
   };
 
   return (
-    <div className="max-w-[1240px] mx-auto mt-10 px-2">
-      <h1 className="text-center font-bold text-2xl my-6">Add To cart</h1>
-
+    <div className="max-w-[1240px] mx-auto  px-2">
       <div className="flex items-center gap-5 md:flex-row">
         <div className="md:w-[900px] flex -mt-24 justify-center gap-4 md:flex-row flex-col">
           <table className="w-full text-center text-sky-400">

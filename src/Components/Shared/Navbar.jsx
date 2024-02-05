@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useContext, useState } from "react";
 import { TbTruckDelivery } from "react-icons/tb";
-import { MdCallEnd } from "react-icons/md";
+import { MdCallEnd, MdManageAccounts } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../Provider/AuthProvider";
 
@@ -16,7 +16,7 @@ const NavBar = () => {
       .then(() => {})
       .catch(() => {});
   };
-  
+
   const [toggle, setToggle] = useState();
   return (
     <div className="max-w-[1240px] mx-auto p-3">
@@ -83,12 +83,18 @@ const NavBar = () => {
                 </h1>
               </div>
             </Link>
+            <Link to="/dashboard/userManagement">
+              <div className="flex   cursor-pointer items-center">
+                <MdManageAccounts className="md:text-2xl text-[#008ECC] cursor-pointer" />
+                <h1 className="hover:text-white duration-300 rounded hover:bg-[#008ECC] p-2">
+                  Dashboard
+                </h1>
+              </div>
+            </Link>
+
             {user ? (
               <>
-                <div
-                  onClick={handleLogout}
-                  className="flex items-center gap-2 cursor-pointer"
-                >
+                <div className="flex gap-2">
                   {user?.photoURL && (
                     <>
                       <div className="dropdown dropdown-end ms-3">
@@ -110,11 +116,16 @@ const NavBar = () => {
                       </div>
                     </>
                   )}
-                  <input
-                    className=" hover:text-white rounded duration-300 hover:bg-[#008ECC] p-2"
-                    type="button"
-                    value="Log Out"
-                  />
+                  <div
+                    onClick={handleLogout}
+                    className="flex items-center gap-2 cursor-pointer"
+                  >
+                    <input
+                      className=" hover:text-white rounded duration-300 hover:bg-[#008ECC] p-2"
+                      type="button"
+                      value="Log Out"
+                    />
+                  </div>
                 </div>
               </>
             ) : (
