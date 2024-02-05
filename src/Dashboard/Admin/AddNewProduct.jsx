@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
 import Swal from "sweetalert2";
-import useAxiosSecure from "../../Hooks/useAxiosSecure";
 import { AuthContext } from "../../Provider/AuthProvider";
+import useAxiosSecure from "../../Hooks/useAxiosSecure";
 
 const AddNewProduct = () => {
   const { register, handleSubmit } = useForm();
@@ -13,7 +13,7 @@ const AddNewProduct = () => {
     import.meta.env.VITE_IMAGE_HOSTING_API_KEY
   }`;
 
-  const addNewClass = (data) => {
+  const addNewProduct = (data) => {
     const formData = new FormData();
     formData.append("image", data.image[0]);
 
@@ -24,18 +24,23 @@ const AddNewProduct = () => {
       .then((res) => res.json())
       .then((imgResponse) => {
         if (imgResponse.success) {
-          const newClass = {
+          const newProduct = {
             title: data.title,
-            image: imgResponse.data.display_url, 
+            category: data.category,
+            subCategory: data.subCategory,
+            image: imgResponse.data.display_url,
+            color: data.color,
+            description: data.description,
+            rating: parseFloat(data.rating),
             price: parseFloat(data.price),
           };
 
-          axiosSecure.post("/add-class", newClass).then((res) => {
+          axiosSecure.post("/post-product", newProduct).then((res) => {
             if (res.data.insertedId) {
               Swal.fire({
                 position: "center",
                 icon: "success",
-                title: "Class Added sucessfull",
+                title: "Class Added successfully",
                 showConfirmButton: false,
                 timer: 1500,
               });
@@ -48,56 +53,78 @@ const AddNewProduct = () => {
   return (
     <main>
       <hr className="w-full my-3" />
-      <form onSubmit={handleSubmit(addNewClass)} className="px-[100px] py-5">
+      <form onSubmit={handleSubmit(addNewProduct)} className="px-[100px] py-5">
         <div className="my-3 text-center">
-          <h2 className="text-2xl font-bold">Add New Class</h2>
+          <h2 className="text-2xl font-bold">Add New Product</h2>
         </div>
 
         <section className="w-full gap-3 md:grid md:grid-cols-2">
           <div className="w-full my-2">
-            <span className="block font-bold">Class Name</span>
+            <span className="block font-bold">Product Name</span>
             <input
               {...register("title", { required: true })}
               type="text"
-              className="w-full px-4 py-3 mt-3 border rounded outline-0"
+              className="w-full px-4 py-2 mt- border rounded outline-0"
               autoComplete="off"
-              placeholder="class Name"
-            />
-          </div>
-          <div className="w-full my-2">
-            <span className="block font-bold">Instructor Name</span>
-            <input
-              {...register("instructor_name")}
-              value={user?.displayName && user?.displayName}
-              type="text"
-              className="w-full px-4 py-3 mt-3 border rounded outline-0"
-              autoComplete="off"
-              disabled
-            />
-          </div>
-          <div className="w-full my-2">
-            <span className="block font-bold">Instructor Email</span>
-            <input
-              {...register("instructor_email")}
-              type="text"
-              value={user?.email && user?.email}
-              className="w-full px-4 py-3 mt-3 border rounded outline-0"
-              autoComplete="off"
-              disabled
+              placeholder="Class Name"
             />
           </div>
 
           <div className="w-full my-2">
-            <span className="block font-bold">Avilable Seats</span>
+            <span className="block font-bold">Category</span>
+            <select
+              {...register("category")}
+              className="w-full px-4 py-2 mt- border rounded outline-0"
+            >
+              <option value="phones">Phones</option>
+              <option value="fashions">Fashions</option>
+              <option value="electrics">Electrics</option>
+              <option value="grocery">Grocery</option>
+              {/* Add other category options here */}
+            </select>
+          </div>
+          <div className="w-full my-2">
+            <span className="block font-bold">Sub Category</span>
             <input
-              {...register("avilable_seats", { required: true })}
-              type="number"
-              className="w-full px-4 py-3 mt-3 border rounded outline-0"
+              {...register("subCategory", { required: true })}
+              type="text"
+              className="w-full px-4 py-2 mt- border rounded outline-0"
               autoComplete="off"
+              placeholder="Sub Category"
             />
           </div>
+          <div className="w-full my-2">
+            <span className="block font-bold">Color</span>
+            <input
+              {...register("color")}
+              type="text"
+              className="w-full px-4 py-2 mt- border rounded outline-0"
+              autoComplete="off"
+              placeholder="Color"
+            />
+          </div>
+          <div className="w-full my-2">
+            <span className="block font-bold">Description</span>
+            <textarea
+              {...register("description")}
+              className="w-full px-4 py-2 mt- border rounded outline-0"
+              autoComplete="off"
+              placeholder="Description"
+            />
+          </div>
+          <div className="w-full my-2">
+            <span className="block font-bold">Rating</span>
+            <input
+              {...register("rating", { required: true })}
+              type="text"
+              className="w-full px-4 py-2 mt- border rounded outline-0"
+              autoComplete="off"
+              placeholder="Rating"
+            />
+          </div>
+
           <div className="w-full mt-5">
-            <span className="block font-bold">upload a image</span>
+            <span className="block font-bold">Upload an image</span>
             <input
               type="file"
               {...register("image", { required: true })}
@@ -109,15 +136,16 @@ const AddNewProduct = () => {
             <input
               {...register("price", { required: true })}
               type="number"
-              className="w-full px-4 py-3 mt-3 border rounded outline-0"
+              className="w-full px-4 py-2 mt- border rounded outline-0"
               autoComplete="off"
+              placeholder="Price"
             />
           </div>
         </section>
 
         <div>
           <button
-            className="block w-full px-4 py-3 mt-10 text-white rounded bg-[#4c5696]"
+            className="block w-full px-4 py-2 mt-0 text-white rounded bg-[#4c5696]"
             type="submit"
           >
             Add Class
