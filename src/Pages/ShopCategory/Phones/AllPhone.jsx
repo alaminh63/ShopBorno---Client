@@ -10,14 +10,10 @@ import logo8 from "../../../assets/Phone Brand/Xiaomi.png";
 import logo9 from "../../../assets/Phone Brand/walton.png";
 import logo10 from "../../../assets/Phone Brand/Vivo.png";
 import { useEffect, useState } from "react";
+import useProducts from "../../../Hooks/useProducts";
 
 const AllPhone = () => {
-  const [allPhones, setAllPhones] = useState([]);
-  useEffect(() => {
-    fetch(`http://localhost:3000/products/phones`)
-      .then((res) => res.json())
-      .then((data) => setAllPhones(data));
-  }, []);
+  const { products } = useProducts("products/phones");
 
   return (
     <div className="max-w-[1240px] mx-auto mt-10 ">
@@ -87,7 +83,7 @@ const AllPhone = () => {
         </Link>
       </div> */}
       <div className="grid md:grid-cols-5 grid-cols-2 items-center">
-        {allPhones.map((phones, index) => (
+        {products?.map((phones, index) => (
           <div key={index}>
             <div className="max-w-[1240px] mx-auto px-2 mt-10 mb-14">
               <div className="bg-white rounded-md shadow-lg">

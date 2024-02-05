@@ -5,14 +5,21 @@ import { FaPlus, FaMinus } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import useAuth from "../../Hooks/useAuth";
-import useApi from "../../Hooks/useApi";
 import Swal from "sweetalert2";
+import useAxiosSecure from "../../Hooks/useAxiosSecure";
+import { useQuery } from "react-query";
 
 const SingleProduct = () => {
-  const [product, setProduct] = useState({});
   const { user } = useAuth();
   const { id } = useParams();
-  const API = useApi();
+  const { axiosSecure } = useAxiosSecure();
+  const { data: product = {} } = useQuery({
+    queryKey: ["allProducts"],
+    queryFn: async () => {
+      const res = await axiosSecure.get(`singleProduct/${id}`);
+      return res.data;
+    },
+  });
   const {
     _id,
     title,
@@ -24,11 +31,6 @@ const SingleProduct = () => {
     color,
     category,
   } = product;
-  useEffect(() => {
-    fetch(`http://localhost:3000/singleProduct/${id}`)
-      .then((res) => res.json())
-      .then((data) => setProduct(data));
-  }, []);
 
   // making cart data to send to server
   const cartProduct = {
@@ -39,7 +41,7 @@ const SingleProduct = () => {
 
   // product adding to cart
   const handleAddToCart = () => {
-    API.post("/cartProducts", cartProduct).then((res) => {
+    axiosSecure.post("/cartProducts", cartProduct).then((res) => {
       if (res?.data?.insertedId) {
         const Toast = Swal.mixin({
           toast: true,

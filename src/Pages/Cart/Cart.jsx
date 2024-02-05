@@ -4,14 +4,15 @@ import useApi from "../../Hooks/useApi";
 import useAuth from "../../Hooks/useAuth";
 import CartRow from "./CartRow";
 import Swal from "sweetalert2";
+import useAxiosSecure from "../../Hooks/useAxiosSecure";
 
 const Cart = () => {
   const { user } = useAuth();
   console.log(user);
-  const API = useApi();
+  const { axiosSecure } = useAxiosSecure();
   const [cartProducts, setCartProducts] = useState([]);
   useEffect(() => {
-    API(`/cartProducts/${user?.email}`)
+    axiosSecure(`/cartProducts/${user?.email}`)
       .then((res) => {
         console.log(res.data);
         setCartProducts(res.data);
@@ -25,7 +26,8 @@ const Cart = () => {
   );
 
   const handleDelete = (id) => {
-    API.delete(`/cartProducts/${id}`)
+    axiosSecure
+      .delete(`/cartProducts/${id}`)
       .then((res) => {
         if (res.data.deletedCount) {
           const Toast = Swal.mixin({
