@@ -22,6 +22,7 @@ import UserManagement from "../Dashboard/Admin/UserManagement";
 import ProductManagement from "../Dashboard/Admin/ProductManagement";
 import OrderedItems from "../Dashboard/Admin/OrderedItems";
 import AddNewProduct from "../Dashboard/Admin/AddNewProduct";
+import UserDetails from "../Dashboard/Admin/UserDetails";
 
 const Router = createBrowserRouter([
   {
@@ -127,6 +128,10 @@ const Router = createBrowserRouter([
       {
         path: "/dashboard/addNewProduct",
         element: <AddNewProduct />,
+      },
+      {
+        path: "/dashboard/userDetails/:id",
+        element: <UserDetails />,
       },
     ],
   },

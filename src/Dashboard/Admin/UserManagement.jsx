@@ -42,6 +42,7 @@ const UserManagement = () => {
               <th className="py-3">Customer Names</th>
               <th className="py-3">Email</th>
               <th className="py-3">role</th>
+              <th className="py-3">See Details</th>
               <th className="py-3">Actions</th>
             </tr>
 

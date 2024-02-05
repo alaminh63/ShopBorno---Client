@@ -72,7 +72,6 @@ const NavBar = () => {
               id=""
               placeholder="Search essentials"
             />
-            <FiSearch className=" cursor-pointer absolute md:left-[1068px] text-white md:text-black md:top-16 left-[350px] top-9" />
           </div>
           <div className="flex items-center justify-center">
             <Link to="/cart">
