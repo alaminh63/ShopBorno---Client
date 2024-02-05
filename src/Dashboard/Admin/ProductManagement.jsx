@@ -3,6 +3,7 @@ import useAxiosSecure from "../../Hooks/useAxiosSecure";
 
 import Swal from "sweetalert2";
 import ProductManagementTable from "../../Components/DashboardComponents/ProductManagementTable";
+import useProducts from "../../Hooks/useProducts";
 
 const ProductManagement = () => {
   const { axiosSecure } = useAxiosSecure();
@@ -10,11 +11,12 @@ const ProductManagement = () => {
   useEffect(() => {
     axiosSecure(`/products`)
       .then((res) => {
-        console.log(res.data);
         setProducts(res.data);
       })
       .catch((err) => console.log(err));
   }, [products]);
+
+
 
   const handleDelete = (id) => {
     axiosSecure

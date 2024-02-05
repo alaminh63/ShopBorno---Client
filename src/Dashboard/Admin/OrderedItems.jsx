@@ -5,7 +5,6 @@ import OrderItemsTable from "../../Components/DashboardComponents/OrderItemsTabl
 
 const OrderedItems = () => {
   const { user } = useAuth();
-  console.log(user);
   const { axiosSecure } = useAxiosSecure();
   const [cartProducts, setCartProducts] = useState([]);
   useEffect(() => {
@@ -23,11 +22,9 @@ const OrderedItems = () => {
           <table className="w-full  text-center text-white">
             <tr className="bg-slate-700 rounded-md ">
               <th className="py-3"></th>
-              <th className="py-3">Name</th>
-              <th className="py-3">Brand</th>
-              <th className="py-3">Color</th>
+              <th className="py-3">Item Name</th>
+              <th className="py-3">Customer Mail</th>
               <th className="py-3">Category</th>
-              <th className="py-3">Rating</th>
               <th className="py-3">Price</th>
               <th className="py-3">Actions</th>
             </tr>

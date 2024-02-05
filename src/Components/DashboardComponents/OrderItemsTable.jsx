@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const OrderItemsTable = ({ product }) => {
   const { productId } = product;
@@ -19,6 +20,8 @@ const OrderItemsTable = ({ product }) => {
       .then((res) => res.json())
       .then((data) => setProductDetails(data));
   }, []);
+
+  
   return (
     <tr className="text-black ">
       <td>
@@ -31,21 +34,23 @@ const OrderItemsTable = ({ product }) => {
       <td>
         <h1>{title}</h1>
       </td>
+     
       <td>
-        <h1>{subCategory}</h1>
-      </td>
-      <td>
-        <h1>{color}</h1>
+        <h1>{product.email}</h1>
       </td>
       <td>
         <h1>{category}</h1>
       </td>
 
       <td>
-        <h1>{rating}</h1>
+        <h1>{price}</h1>
       </td>
       <td>
-        <h1>{price}</h1>
+        <Link to={`/dashboard/orderDetails/${productId}`}>
+          <h1 className="bg-sky-500 font-bold text-white rounded-2xl">
+            Order Details
+          </h1>
+        </Link>
       </td>
     </tr>
   );

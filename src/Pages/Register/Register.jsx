@@ -74,6 +74,7 @@ const Register = () => {
           name: result?.user?.displayName,
           email: result?.user?.email,
           photo_url: result?.user?.photoURL,
+          phone: result?.user?.phone,
         };
 
         axiosSecure.put(`/add-user?email=${user?.email}`, user).then((res) => {
@@ -121,6 +122,31 @@ const Register = () => {
                 placeholder="Email"
               />
             </div>
+            <div className="mb-4">
+              <label htmlFor="phone" className="block text-black">
+                Phone
+              </label>
+              <input
+                type="number"
+                id="phone"
+                placeholder="Insert Bangladeshi Phone Number"
+                {...register("phone", {
+                  required: "Phone is required",
+                  pattern: {
+                    value: /^\d{11}$/,
+                    message: "Only 11 Bangladeshi digits acceptable",
+                  },
+                })}
+                className={`p-2 w-full  rounded-sm px-4 py-3 mt-3 focus:outline-none bg-gray-100 w-full${
+                  errors.phone ? "border-red-500" : ""
+                }`}
+              />
+              {errors.phone && (
+                <p className="text-red-500 text-xs mt-1">
+                  {errors.phone.message}
+                </p>
+              )}
+            </div>
             <div className="my-5 text-sm">
               <label htmlFor="photoURL" className="block text-black">
                 Photo URL
@@ -141,7 +167,6 @@ const Register = () => {
                   required: true,
                   minLength: 6,
                   maxLength: 20,
-                  pattern: /(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9]).{6}/,
                 })}
                 type={`${toggleIcon ? "text" : "password"}`}
                 className="rounded-sm px-4 py-3 mt-3 focus:outline-none bg-gray-100 w-full"
